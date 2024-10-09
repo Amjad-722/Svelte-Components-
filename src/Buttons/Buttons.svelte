@@ -12,7 +12,7 @@
             Order Now 
         </button>
         <button class="px-8 py-3 text-white-100 border-1 Animation  border-red-600 bg-gradient-to-r from-yellow-300 to-cyan-500 shadow-md shadow-slate-600 hover:border-white hover:from-purple-700">Login</button>
-        <button class="px-8 py-3 text-white-100 border-1 border-red-600 bg-gradient-to-r from-yellow-300 to-cyan-500 shadow-md shadow-slate-600 hover:border-white hover:from-purple-700">Hire Me</button>
+        <button class="px-8 py-3 text-white-100 bg-purpale-700   border-2 border-blue-700 shadow-slate-600 hover:border-red-600 hover:from-purple-700">Hire Me</button>
         </div>
         
      
