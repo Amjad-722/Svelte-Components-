@@ -2,15 +2,15 @@
 </script>
 
 <main>
-  <nav class="border-2 rounded-lg bg-red-300">
+  <nav class="rounded-lg   border-4  bg-red-300">
     <div
       class="max-w-screen-md flex flex-wrap  items-center justify-between mx-auto p-4"
     >
       <div
-        class="flex"
+       
       >
-        <a href="">
-          <img src="https://flowbite.com/docs/images/logo.svg" alt="" />
+        <a href="" class="flex items-center gap-1">
+          <img src="https://media.licdn.com/dms/image/v2/D5635AQHgmpy0oZl8nA/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1725826179476?e=1729166400&v=beta&t=PO4ePtsBNjTTl0kj8pebrggmg4v3MiP7Z1H0LKIbsaM" alt="" class="size-12 rounded-full" />
           <span class="self-center text-2xl font-semibold whitespace-nowrap"> Amjad </span>
         </a>
       </div>
