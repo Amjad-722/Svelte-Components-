@@ -8,7 +8,9 @@ import Notificationes from "../Notificationes/Notificationes.svelte";
   </script>
 
   <main>
-
+    <div class="h-screen">
+      <Navabr/>
+    </div>
     <div>
       <Notificationes/>
     </div>
@@ -16,10 +18,7 @@ import Notificationes from "../Notificationes/Notificationes.svelte";
       <Buttons/>
     </div>
     <hr class="border-1 border-gray-400 ">
-    <div>
-      <h1 class="flex items-center justify-center  font-bold text-6xl m-8 leading-10">Navbar Component</h1>
-      <Navabr/>
-    </div>
+   
   </main>
   
  
