@@ -4,7 +4,7 @@
 </script>
 
 
-<main class="h-screen mt-10">
+<main class=" mt-10">
     
         <div class="flex flex-row gap-6 justify-center items-center">
           <button class="text-white-100 rounded-2xl border-2 border-red-600 bg-gradient-to-r from-yellow-300 to-cyan-500 px-4 py-2 shadow-md shadow-slate-600 hover:border-white hover:from-purple-700">Click me</button>

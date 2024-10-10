@@ -2,7 +2,7 @@
 </script>
 
 <main>
-  <nav class=" bg-red-300">
+  <nav class=" bg-white bg-gradient-to-bl from-white to-gray-400">
     <div
       class="max-w-screen-md flex flex-wrap  items-center justify-between mx-auto p-4"
     >
@@ -18,10 +18,10 @@
         <ul
           class="flex flex-wrap gap-8 px-4 py-3  rounded-3xl font-medium shadow shadow-fuchsia-700 bg bg-gradient-to-r from-white to-gray-400 text-white-100 border-2 border-red-600"
         >
-          <li class="text-black hover:text-blue-800"><a href="#home">Home</a></li>
-          <li class="text-black hover:text-blue-800"><a href="#About">About</a></li>
-          <li class="text-black hover:text-blue-800"><a href="#Testimonial">Testimonail</a></li>
-          <li class="text-black hover:text-blue-800"><a href="#Contact">Contact</a></li>
+          <li class="text-black hover:text-blue-800 hover:font-bold hover:text-xl hover:translate-y-1"><a href="#home">Home</a></li>
+          <li class="text-black hover:text-blue-800 hover:font-bold hover:text-xl"><a href="#About">About</a></li>
+          <li class="text-black hover:text-blue-800 hover:font-bold hover:text-xl"><a href="#Testimonial">Testimonail</a></li>
+          <li class="text-black hover:text-blue-800 hover:font-bold hover:text-xl"><a href="#Contact">Contact</a></li>
         </ul>
       </div>
     </div>
