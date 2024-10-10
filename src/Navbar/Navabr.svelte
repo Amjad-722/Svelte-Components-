@@ -2,7 +2,7 @@
 </script>
 
 <main>
-  <nav class="rounded-lg   border-4  bg-red-300">
+  <nav class=" bg-red-300">
     <div
       class="max-w-screen-md flex flex-wrap  items-center justify-between mx-auto p-4"
     >
@@ -16,12 +16,12 @@
       </div>
       <div>
         <ul
-          class="flex flex-wrap gap-8 px-4 py-3  rounded-3xl font-medium shadow shadow-fuchsia-700 bg bg-gradient-to-r from-white to-gray-400 text-white-100 border-2"
+          class="flex flex-wrap gap-8 px-4 py-3  rounded-3xl font-medium shadow shadow-fuchsia-700 bg bg-gradient-to-r from-white to-gray-400 text-white-100 border-2 border-red-600"
         >
-          <li><a href="#home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Testimonial">Testimonail</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li class="text-black hover:text-blue-800"><a href="#home">Home</a></li>
+          <li class="text-black hover:text-blue-800"><a href="#About">About</a></li>
+          <li class="text-black hover:text-blue-800"><a href="#Testimonial">Testimonail</a></li>
+          <li class="text-black hover:text-blue-800"><a href="#Contact">Contact</a></li>
         </ul>
       </div>
     </div>
