@@ -4,7 +4,7 @@
 <main>
   <nav class=" z-50   bg-white">
     <div
-      class="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto p-4"
+      class="max-w-screen-lg    flex flex-wrap items-center justify-between mx-auto p-4"
     >
       <div>
         <a href="" class="flex items-center gap-1">
@@ -29,7 +29,7 @@
     </button></div>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="flex flex-wrap gap-8 px-4 py-3 rounded-3xl font-medium shadow shadow-fuchsia-700 bg bg-gradient-to-r from-white to-gray-400 text-white-100 border-2 border-red-600"
+          class="flex flex-wrap gap-8 px-4 py-3 rounded-3xl font-medium shadow shadow-fuchsia-700 bg bg-gradient-to-r from-white to-gray-400 text-white-100 border-2 "
         >
           <li
             class="text-black hover:text-blue-800 hover:font-bold hover:text-sm"
@@ -54,7 +54,7 @@
         </ul>
       </div>
       <div>
-        <button class="border-2 border-red-600 py-2.5 rounded-full bg-gradient-to-r   hover:to-cyan-500 px-4  shadow-md shadow-slate-600 to-gray-400   from-white">
+        <button class="border-2  py-2.5 rounded-full bg-gradient-to-r   hover:to-cyan-500 px-4  shadow-md shadow-slate-600 to-gray-400   from-white">
           <a href="#Hire">Hire me </a>
         </button>
       </div>
