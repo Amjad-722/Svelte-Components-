@@ -8,12 +8,16 @@ import Notificationes from "../Notificationes/Notificationes.svelte";
   </script>
 
   <main>
-    <div class="h-screen">
+    <div class="p-5">
+      <h1 class="text-3xl font-bold flex justify-center text-gray-500 items-center">Navbar</h1>
       <Navabr/>
     </div>
-    <div>
+    <hr class="border-1 border-gray-400 ">
+    <div class="p-5">
+      <h1 class="text-3xl font-bold flex justify-center text-gray-500 items-center">Navbar</h1>
       <Notificationes/>
-    </div>
+    </div>  
+      <hr class="border-1 border-gray-400 ">
     <div class="py-5">
       <Buttons/>
     </div>
