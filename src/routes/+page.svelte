@@ -3,6 +3,7 @@
   import Navabr from "../Navbar/Navabr.svelte";
   import Nvabr from "../Navbar/Navabr.svelte";
 import Notificationes from "../Notificationes/Notificationes.svelte";
+  import PricingCard from "../PricingCard/PricingCard.svelte";
 
   
   </script>
@@ -23,6 +24,12 @@ import Notificationes from "../Notificationes/Notificationes.svelte";
       <Buttons/>
     </div>
     <hr class="border-1 border-gray-400 ">
+    <div class="py-5">
+
+      <h1 class="text-3xl font-bold flex justify-center text-gray-500 items-center ">Buttons</h1>
+<PricingCard/>
+    </div>
+
    
   </main>
   
