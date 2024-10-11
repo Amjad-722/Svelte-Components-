@@ -36,7 +36,7 @@
     }
 </style>
 
-<main class="h-screen justify-center flex items-center bg-gray-100">
+<main class="h-screen justify-center flex items-center ">
     <div class="grid md:grid-cols-3 sm:grid-cols-1 space-x-6">
         {#each pricingPlans as plan}
             <div class={`pricing-card flex flex-col border-2 hover:-translate-y-4 hover:shadow-7xl hover:shadow-stone-800 text-start px-16 items-start rounded-3xl border-gray-500 shadow-xl shadow-gray-700 ${plan.bgColor}`} style="background-image: url({plan.bgimage}); background-size: cover; background-repeat: no-repeat;">
