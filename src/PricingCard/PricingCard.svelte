@@ -27,7 +27,7 @@
             bgimage: "https://img.freepik.com/free-vector/gradient-dynamic-blue-lines-background_23-2148995756.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1728604800&semt=ais_hybrid-rr-similar",
             bgColor: "bg-gradient-to-r from-purple-500 to-pink-500",
             bgText: "text-white",
-            iconColor: "text-White-700" 
+            iconColor: "text-white" 
         }
     ];
 </script>
