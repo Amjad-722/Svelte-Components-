@@ -40,7 +40,7 @@
   </div>
   
 
-  <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-8">
+  <div class="w-full   grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-8">
     {#each cards as card}
       <div class="border shadow-md p-8 rounded-lg flex flex-row items-center">
         <img src={card.image} alt="User avatar" class="w-16 h-16 rounded-lg" />
@@ -48,7 +48,15 @@
           <span class="font-medium text-xl">{card.Orders}</span>
           <span class="font-medium text-3xl leading-8">{card.OrdersNO}</span>
         </div>
+        <div class=" ml-52"> <svg class="transform -rotate-90 w-24 h-24">
+            <circle cx="50" cy="50" r="25" stroke="currentColor" stroke-width="5" fill="transparent"
+                class="text-gray-700" />
+    
+          
+        </svg>
+    </div>
       </div>
+     
     {/each}
   </div>
   
