@@ -17,7 +17,43 @@
         OrdersNO: "72"
       }
     ];
+    document.addEventListener('alpine:init', () => {
+        Alpine.data('skillDisplay', () => ({
+            skills: [{
+                    '': 'HTML',
+                    'percent': '95',
+                },
+                {
+                    'title': 'CSS',
+                    'percent': '70',
+                },
+                {
+                    'title': 'Tailwind CSS',
+                    'percent': '90',
+                },
+                {
+                    'title': 'JavaScript',
+                    'percent': '70',
+                },
+                {
+                    'title': 'Alpine JS',
+                    'percent': '80',
+                }, {
+                    'title': 'PHP',
+                    'percent': '65',
+                }, {
+                    'title': 'Laravel',
+                    'percent': '75',
+                }
+            ],
+            currentSkill: {
+                'title': 'HTML',
+                'percent': '95',
+            }
+        }));
+    });
   </script>
+ 
   
   <div class=" mt-10 p-8">
     <ul class="flex flex-row">
@@ -52,7 +88,10 @@
             <circle cx="50" cy="50" r="25" stroke="currentColor" stroke-width="5" fill="transparent"
                 class="text-gray-700" />
     
-          
+                <circle cx="50" cy="50" r="25" stroke="currentColor" stroke-width="5" fill="transparent"
+                :stroke-dasharray="circumference"
+                :stroke-dashoffset="circumference - currentSkill.percent / 100 * circumference"
+                class="text-blue-500 " />
         </svg>
     </div>
       </div>
