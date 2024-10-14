@@ -25,15 +25,15 @@
       <li class="font-medium text-lg hover:text-blue-500 hover:underline">
         <a href="">Navbar</a>
       </li>
-      <span>/</span>
+      <span class="mx-2">/</span>
       <li class="font-medium text-lg hover:text-blue-500 hover:underline">
         <a href="">Notification</a>
       </li>
-      <span>/</span>
+      <span class="mx-2">/</span>
       <li class="font-medium text-lg hover:text-blue-500 hover:underline">
         <a href="">Buttons</a>
       </li>
-      <span>/</span>
+      <span class="mx-2">/</span>
       <li class="font-medium text-lg hover:text-blue-500 hover:underline">
         <a href="">PricingCard</a>
       </li>
