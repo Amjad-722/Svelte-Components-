@@ -1,5 +1,5 @@
 <script>
-    // Array of card data for dynamic rendering
+ 
     let cards = [
       {
         image: "https://avatars.githubusercontent.com/u/159441246?v=4&size=64",
@@ -19,21 +19,20 @@
     ];
   </script>
   
-  <!-- Breadcrumb Navigation -->
   <div class=" mt-10 p-8">
     <ul class="flex flex-row">
       <li class="font-medium text-lg hover:text-blue-500 hover:underline">
         <a href="">Navbar</a>
       </li>
-      <span>/</span>
+      <span class="mx-2">/</span>
       <li class="font-medium text-lg hover:text-blue-500 hover:underline">
         <a href="">Notification</a>
       </li>
-      <span>/</span>
+      <span class="mx-2">/</span>
       <li class="font-medium text-lg hover:text-blue-500 hover:underline">
         <a href="">Buttons</a>
       </li>
-      <span>/</span>
+      <span class="mx-2">/</span>
       <li class="font-medium text-lg hover:text-blue-500 hover:underline">
         <a href="">PricingCard</a>
       </li>
