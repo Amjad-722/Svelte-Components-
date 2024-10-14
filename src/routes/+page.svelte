@@ -1,5 +1,6 @@
 <script>
   import Buttons from "../Buttons/Buttons.svelte";
+  import Card from "../Csrd/Card.svelte";
   import Navabr from "../Navbar/Navabr.svelte";
   import Nvabr from "../Navbar/Navabr.svelte";
 import Notificationes from "../Notificationes/Notificationes.svelte";
@@ -9,6 +10,10 @@ import Notificationes from "../Notificationes/Notificationes.svelte";
   </script>
 
   <main>
+    <div>
+      <Card/>
+    </div>
+    <hr class="border-1 border-gray-400 ">
     <div class="p-5">
       <h1 class="text-3xl font-bold flex justify-center text-gray-500 items-center">Navbar</h1>
       <Navabr/>
