@@ -11,10 +11,11 @@ import Notificationes from "../Notificationes/Notificationes.svelte";
 
   <main>
     <div>
+      <h1 class=" mt-8 text-3xl font-bold flex justify-center text-gray-500 items-center">BreadCrumd</h1>
       <Card/>
     </div>
     <hr class="border-1 border-gray-400 ">
-    <div class="p-5">
+    <div class="p-5 mt-8">
       <h1 class="text-3xl font-bold flex justify-center text-gray-500 items-center">Navbar</h1>
       <Navabr/>
     </div>
