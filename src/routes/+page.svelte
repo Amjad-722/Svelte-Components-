@@ -21,8 +21,8 @@ import Notificationes from "../Notificationes/Notificationes.svelte";
       <Navabr/>
     </div>
     <hr class="border-1 border-gray-400 ">
-    <div class="p-5">
-      <h1 class="text-3xl font-bold flex justify-center text-gray-500 items-center">Notifications Card</h1>
+    <div class="p-5 mt-20">
+      <h1 class="text-6xl font-bold flex justify-center text-indigo-800 items-center">Notifications Card</h1>
       <Notificationes/>
     </div>  
       <hr class="border-1 border-gray-400 ">
