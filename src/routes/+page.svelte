@@ -36,9 +36,9 @@ import Notificationes from "../Notificationes/Notificationes.svelte";
       <h1 class=" text-6xl mt-40 font-bold flex justify-center text-indigo-800 items-center ">Pricing Card</h1>
 <PricingCard/>
     </div>
-    <div class="py-5">
+    <div class="py-5 ">
 
-      <h1 class=" text-3xl mt-40 font-bold flex justify-center text-gray-500 items-center ">Hover Cards</h1>
+      <h1 class=" text-6xl mt-40 font-bold flex justify-center text-indigo-900 items-center ">Hover Cards</h1>
 <HoveredCards/>
     </div>
 
