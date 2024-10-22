@@ -17,7 +17,7 @@ import Notificationes from "../Notificationes/Notificationes.svelte";
     </div> -->
     <hr class="border-1 border-gray-400 ">
     <div class="p-5 mt-8">
-      <h1 class="text-3xl font-bold flex justify-center text-gray-500 items-center">Navbar</h1>
+      <h1 class="text-6xl font-bold flex justify-center text-indigo-800 items-center">Navbar</h1>
       <Navabr/>
     </div>
     <hr class="border-1 border-gray-400 ">
@@ -31,9 +31,9 @@ import Notificationes from "../Notificationes/Notificationes.svelte";
       <Buttons/>
     </div>
     <hr class="border-1 border-gray-400 ">
-    <div class="py-5">
+    <div class="py-5 mt-20 ">
 
-      <h1 class=" text-3xl mt-40 font-bold flex justify-center text-gray-500 items-center ">Pricing Card</h1>
+      <h1 class=" text-6xl mt-40 font-bold flex justify-center text-indigo-800 items-center ">Pricing Card</h1>
 <PricingCard/>
     </div>
     <div class="py-5">
